@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Side area styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+# Side area style - begin
+========================================================================== */
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener {
+  color: #fff !important;
+}
+
+.edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener.opened, .edgtf-light-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener:hover,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener.opened,
+.edgtf-light-header .edgtf-top-bar .edgtf-side-menu-button-opener:hover {
+  color: #fffdfd !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener {
+  color: #333 !important;
+}
+
+.edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener.opened, .edgtf-dark-header .edgtf-page-header > div:not(.edgtf-sticky-header):not(.fixed) .edgtf-side-menu-button-opener:hover,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener.opened,
+.edgtf-dark-header .edgtf-top-bar .edgtf-side-menu-button-opener:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.edgtf-side-menu-button-opener {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: #242424;
+  margin: 0 0 0 10px;
+}
+
+.edgtf-side-menu-button-opener .edgtf-side-menu-title {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+  color: currentColor;
+}
+
+.edgtf-side-menu-button-opener .edgtf-side-menu-icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edgtf-side-menu-button-opener.opened, .edgtf-side-menu-button-opener:hover {
+  color: #f04c4b;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon {
+  font-size: 35px;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon * {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-icon-pack .edgtf-side-menu-icon *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon > * {
+  vertical-align: middle;
+}
+
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon > *,
+.edgtf-side-menu-button-opener.edgtf-side-menu-button-opener-svg-path .edgtf-side-menu-icon path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.edgtf-side-menu {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  min-height: 100%;
+  padding: 9% 52px 36px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  text-align: left;
+  overflow: hidden;
+  visibility: hidden;
+  z-index: 9999;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+@media only screen and (max-width: 1366px) {
+  .edgtf-side-menu {
+    background-position: bottom center;
+    padding: 6% 52px 36px;
+  }
+}
+
+.edgtf-side-menu .edgtf-close-side-menu-holder {
+  position: absolute;
+  top: 31px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.admin-bar .edgtf-side-menu .edgtf-close-side-menu-holder {
+  top: 68px;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu {
+  display: block;
+  z-index: 1000;
+  color: #000;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu:hover {
+  color: #303030;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack {
+  font-size: 22px;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack * {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-icon-pack *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path > * {
+  vertical-align: middle;
+}
+
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path > *,
+.edgtf-side-menu a.edgtf-close-side-menu.edgtf-close-side-menu-svg-path path {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.edgtf-side-menu-slide-from-right.edgtf-right-side-menu-opened .edgtf-wrapper .edgtf-cover {
+  z-index: 3000;
+}
+
+.edgtf-side-menu-slide-from-right.edgtf-right-side-menu-opened .edgtf-side-menu {
+  right: 0;
+  visibility: visible;
+}
+
+.edgtf-side-menu-slide-from-right .edgtf-wrapper .edgtf-cover {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* ==========================================================================
+# Side area style - end
+========================================================================== */
+/* ==========================================================================
+   Side area styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=sidearea-map.css.map */

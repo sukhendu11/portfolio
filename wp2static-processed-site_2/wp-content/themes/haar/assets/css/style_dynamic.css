@@ -1,0 +1,42 @@
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\contactform7\custom-styles\contact-form.php haar_edge_contact_form7_text_styles_1 function */
+.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea { height: 160px;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\contactform7\custom-styles\contact-form.php haar_edge_contact_form7_text_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz { color: #ffffff;background-color: rgba(240, 76, 75, 1);border-color: rgba(255, 255, 255, 1);}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\contactform7\custom-styles\contact-form.php haar_edge_contact_form7_button_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit { color: #252525;background-color: rgba(255, 255, 255, 1);}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\contactform7\custom-styles\contact-form.php haar_edge_contact_form7_button_hover_styles_2 function */
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover { color: #ffffff;background-color: rgba(240, 76, 75, 1);border-color: rgba(255, 255, 255, 1);}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\error404\custom-styles\custom-styles.php haar_edge_404_header_general_styles function */
+.error404 .edgtf-page-header .edgtf-menu-area { background-color: rgba(255, 255, 255, 0) !important;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\error404\custom-styles\custom-styles.php haar_edge_404_page_general_styles function */
+.error404 .edgtf-content { background-image: url(https://ebareng.com/wp-content/uploads/2018/02/404-background.jpg);background-position: center 0;background-size: cover;background-repeat: no-repeat;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\footer\admin\custom-styles\footer-custom-styles.php haar_edge_footer_top_general_styles function */
+.edgtf-page-footer .edgtf-footer-top-holder { background-image: url(https://ebareng.com/wp-content/uploads/2018/03/footer-dark-background.jpg);}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\footer\admin\custom-styles\footer-custom-styles.php haar_edge_footer_bottom_general_styles function */
+.edgtf-page-footer .edgtf-footer-bottom-holder { background-color: #ffffff;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\header\types\header-minimal\admin\custom-styles\full-screen-menu-custom-styles.php haar_edge_fullscreen_menu_general_styles function */
+.edgtf-fullscreen-menu-holder { background-image: url(https://ebareng.com/wp-content/uploads/2018/02/fullscreen-menu-background.jpg);background-position: center 0;background-repeat: no-repeat;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\header\types\top-header\admin\custom-styles\top-header-custom-styles.php haar_edge_header_top_bar_styles function */
+.edgtf-header-box .edgtf-top-bar-background { height: 95px;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\header\admin\custom-styles\header-custom-styles.php haar_edge_header_logo_area_styles function */
+.edgtf-header-centered .edgtf-logo-area .edgtf-logo-wrapper { padding: ;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\header\admin\custom-styles\header-custom-styles.php haar_edge_main_menu_styles function */
+.edgtf-drop-down li.wide .second .inner { background-image: url(https://ebareng.com/wp-content/uploads/2018/02/wide-dd-background.jpg);}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\search\admin\custom-styles\search-custom-styles.php haar_edge_search_opener_icon_size function */
+.edgtf-search-opener { font-size: 20px;}
+
+/* generated in C:\xampp\htdocs\sukh\wp-content\themes\haar\framework\modules\sidearea\admin\custom-styles\sidearea-custom-styles.php haar_edge_side_area_styles function */
+.edgtf-side-menu { background-image: url(https://ebareng.com/wp-content/uploads/2018/02/side-area-background-img.jpg);}
+
